@@ -289,6 +289,8 @@ public class ComplicationWatchFaceService extends CanvasWatchFaceService {
         @Override
         public void onComplicationDataUpdate(
                 int complicationId, ComplicationData complicationData) {
+
+            // TODO: log full data!!!
             Log.d(TAG, "onComplicationDataUpdate() id: " + complicationId);
 
             // Adds/updates active complication data in the array.
